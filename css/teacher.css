@@ -1,0 +1,95 @@
+body {
+    margin: 0;
+    font-family: 'Roboto', sans-serif;
+    background: linear-gradient(135deg, #0f2027, #203a43, #2c5364);
+    color: #333;
+}
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@700&display=swap'); /* Importing a beautiful font */
+
+/* Container Styling */
+.container {
+    max-width: 800px;
+    margin: 50px auto;
+    padding: 20px;
+    background-color: rgba(255, 255, 255, 0.9);
+    border-radius: 15px;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.2);
+    text-align: center;
+}
+
+/* Main Title Styling */
+.main-title {
+   
+    font-family: 'Montserrat', sans-serif; /* Using Montserrat font */
+    font-size: 2.5rem;
+    color: #333;
+    margin-bottom: 10px;
+    letter-spacing: 1.5px;
+    text-transform: uppercase;
+}
+
+/* Teacher Details Styling */
+.teacher-details {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin-bottom: 30px;
+}
+
+.teacher-photo {
+    width: 250px; /* Set the width to 250 pixels */
+    height: 250px; /* Set the height to 250 pixels */
+    border-radius: 50%;
+    transition: transform 0.3s;
+    margin-bottom: 20px;
+}
+
+.teacher-photo:hover {
+    transform: scale(1.05);
+}
+
+/* Teacher Name Styling */
+.teacher-name {
+    font-size: 2em;
+    color: #007BFF;
+    margin-bottom: 10px;
+}
+
+/* Button Styling */
+.back-button {
+    padding: 10px 20px;
+    background-color: #007BFF;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 1.2em;
+    transition: background-color 0.3s, transform 0.2s;
+}
+
+.back-button:hover {
+    background-color: #0056b3;
+    transform: scale(1.05);
+}
+
+/* List of Projects & Papers */
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+ul li {
+    margin: 5px 0;
+    animation: fadeIn 0.5s ease-in-out;
+}
+
+/* Fade-in Animation */
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}

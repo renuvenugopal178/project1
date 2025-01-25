@@ -1,0 +1,101 @@
+body {
+    margin: 0;
+    font-family: 'Roboto', sans-serif;
+    background: linear-gradient(135deg, #0f2027, #203a43, #2c5364);
+    color: #ffffff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+/* Container Styling */
+.futuristic-container {
+    max-width: 1200px;
+    width: 90%;
+    background-color: rgba(255, 255, 255, 0.1);
+    border-radius: 15px;
+    padding: 40px;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.5);
+    backdrop-filter: blur(10px);
+    text-align: center;
+}
+
+/* Title Styling */
+.main-title {
+    font-size: 2.5em;
+    margin-bottom: 20px;
+    text-shadow: 0 2px 5px rgba(0, 0, 0, 0.5);
+}
+
+.search-bar {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+
+.search-bar input {
+    width: 300px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px 0 0 5px;
+    outline: none;
+}
+
+.search-bar button {
+    padding: 10px 20px;
+    background-color: #007BFF;
+    color: white;
+    border: none;
+    border-radius: 0 5px 5px 0;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.search-bar button:hover {
+    background-color: #0056b3;
+}
+
+/* Project Description Container Styling */
+.project-description-container {
+    margin-top: 40px;
+    text-align: center;
+}
+
+.project-description-container h2 {
+    font-size: 1.5em;
+    color: #00c6ff;
+    margin-bottom: 15px;
+    text-shadow: 0 1px 5px rgba(0, 0, 0, 0.5);
+}
+
+.project-description-container textarea {
+    width: 80%;
+    height: 100px;
+    border-radius: 10px;
+    border: none;
+    padding: 10px;
+    font-size: 1em;
+    color: #333;
+    background-color: #ffffff;
+    outline: none;
+    resize: none;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3);
+}
+
+.project-description-container button {
+    margin-top: 15px;
+    padding: 10px 20px;
+    background-color: #00c6ff;
+    border: none;
+    border-radius: 5px;
+    color: #ffffff;
+    font-size: 1em;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+.project-description-container button:hover {
+    background-color: #0078a0;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3);
+}

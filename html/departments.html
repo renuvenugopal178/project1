@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/department.css">
+    <title>Home</title>
+</head>
+<body>
+    <div class="futuristic-container">
+        <h1 class="main-title">Ask the Expert</h1>
+
+        <!-- Search Bar -->
+        <div class="search-bar">
+            <input type="text" id="searchInput" placeholder="🔍 Search...">
+            <button onclick="searchTeachers()">Search</button>
+        </div>
+
+        <!-- Department Tiles -->
+        <div class="tiles">
+            <div class="tile" onclick="showTeachers('Computer Science')">Computer Science</div>
+            <div class="tile" onclick="showTeachers('Mechanical')">Mechanical</div>
+            <div class="tile" onclick="showTeachers('Chemical')">Chemical</div>
+            <div class="tile" onclick="showTeachers('Electronics and Communication')">Electronics and Communication</div>
+            <div class="tile" onclick="showTeachers('Applied Electronics')">Applied Electronics</div>
+            <div class="tile" onclick="showTeachers('Civil Engineering')">Civil Engineering</div>
+        </div>
+
+        <!-- Teacher List -->
+        <div id="teacherList" class="teacher-list"></div>
+
+        <!-- Project Description Section -->
+        <div class="project-description-container">
+            <h2>Describe Your Project</h2>
+            <textarea id="projectDescription" placeholder="Describe your project here..."></textarea>
+            <button onclick="findMatchingTeachers()">Find Teachers</button>
+        </div>
+        
+    </div>
+
+    <script src="js/departments.js"></script>
+</body>
+</html>
