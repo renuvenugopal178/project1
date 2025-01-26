@@ -1,3 +1,4 @@
+// Sample teacher data
 const teacherData = {
     "SHAHANA T": {
         specialization: "C, Data Structures, DBMS, SQL",
